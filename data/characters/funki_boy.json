@@ -1,0 +1,50 @@
+{
+  "version": "1.0.0",
+  "name": "Funky Boy",
+  "renderType": "multianimateatlas",
+  "assetPath": "characters/funkiBoy",
+  "flipX": true,
+  "offsets": [0,0],
+  "cameraOffsets": [0, 0],
+  "death": {
+    "cameraOffsets": [0,0]
+  },
+  "animations": [
+    {
+      "name": "idle",
+      "prefix": "idle"
+    },
+    {
+      "name": "singLEFT",
+      "prefix": "singLEFT"
+    },
+    {
+      "name": "singDOWN",
+      "prefix": "singDOWN"
+    },
+    {
+      "name": "singUP",
+      "prefix": "singUP"
+    },
+    {
+      "name": "singRIGHT",
+      "prefix": "singRIGHT"
+    },
+    {
+      "name": "singLEFTmiss",
+      "prefix": "singLEFTmiss"
+    },
+    {
+      "name": "singDOWNmiss",
+      "prefix": "singDOWNmiss"
+    },
+    {
+      "name": "singUPmiss",
+      "prefix": "singUPmiss"
+    },
+    {
+      "name": "singRIGHTmiss",
+      "prefix": "singRIGHTmiss"
+    }
+  ]
+}
