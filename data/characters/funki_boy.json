@@ -45,6 +45,22 @@
     {
       "name": "singRIGHTmiss",
       "prefix": "singRIGHTmiss"
+    },
+    {
+      "name": "firstDeath",
+      "prefix": "firstDeath",
+      "assetPath": "characters/funkiBoyDeath"
+    },
+    {
+      "name": "death:Loop",
+      "prefix": "death:Loop",
+      "looped": true,
+      "assetPath": "characters/funkiBoyDeath"
+    },
+    {
+      "name": "deathConfirm",
+      "prefix": "deathConfirm",
+      "assetPath": "characters/funkiBoyDeath"
     }
   ]
 }
