@@ -1,66 +1,206 @@
 {
-  "version": "1.0.0",
-  "name": "Funky Boy",
-  "renderType": "multianimateatlas",
-  "assetPath": "characters/funkiBoy",
-  "flipX": true,
-  "offsets": [0,0],
-  "cameraOffsets": [0, 0],
-  "death": {
-    "cameraOffsets": [0,0]
-  },
-  "animations": [
-    {
-      "name": "idle",
-      "prefix": "idle"
+    "renderType": "multianimateatlas",
+    "offsets": [
+        0,
+        0
+    ],
+    "applyStageMatrix": false,
+    "startingAnimation": "idle",
+    "death": {
+        "cameraOffsets": [
+            0,
+            0
+        ]
     },
-    {
-      "name": "singLEFT",
-      "prefix": "singLEFT"
+    "healthIcon": {
+        "offsets": [
+            0,
+            0
+        ],
+        "id": "funki_boy",
+        "flipX": false,
+        "shouldBop": true,
+        "isPixel": false,
+        "scale": 1
     },
-    {
-      "name": "singDOWN",
-      "prefix": "singDOWN"
+    "assetPath": "characters/funkiBoy",
+    "version": "1.0.0",
+    "danceEvery": 1,
+    "scale": 1,
+    "name": "Funky Boy",
+    "flipX": true,
+    "cameraOffsets": [
+        0,
+        0
+    ],
+    "isPixel": false,
+    "singTime": 8,
+    "atlasSettings": {
+        "applyStageMatrix": false,
+        "useRenderTexture": false,
+        "filterQuality": 1,
+        "cacheOnLoad": false,
+        "swfMode": true
     },
-    {
-      "name": "singUP",
-      "prefix": "singUP"
-    },
-    {
-      "name": "singRIGHT",
-      "prefix": "singRIGHT"
-    },
-    {
-      "name": "singLEFTmiss",
-      "prefix": "singLEFTmiss"
-    },
-    {
-      "name": "singDOWNmiss",
-      "prefix": "singDOWNmiss"
-    },
-    {
-      "name": "singUPmiss",
-      "prefix": "singUPmiss"
-    },
-    {
-      "name": "singRIGHTmiss",
-      "prefix": "singRIGHTmiss"
-    },
-    {
-      "name": "firstDeath",
-      "prefix": "firstDeath",
-      "assetPath": "characters/funkiBoyDeath"
-    },
-    {
-      "name": "death:Loop",
-      "prefix": "death:Loop",
-      "looped": true,
-      "assetPath": "characters/funkiBoyDeath"
-    },
-    {
-      "name": "deathConfirm",
-      "prefix": "deathConfirm",
-      "assetPath": "characters/funkiBoyDeath"
-    }
-  ]
+    "animations": [
+        {
+            "flipY": false,
+            "offsets": [
+                0,
+                0
+            ],
+            "frameRate": 24,
+            "prefix": "idle",
+            "animType": "framelabel",
+            "flipX": false,
+            "looped": false,
+            "name": "idle"
+        },
+        {
+            "flipY": false,
+            "offsets": [
+                0,
+                0
+            ],
+            "frameRate": 24,
+            "prefix": "singLEFT",
+            "animType": "framelabel",
+            "flipX": false,
+            "looped": false,
+            "name": "singLEFT"
+        },
+        {
+            "flipY": false,
+            "offsets": [
+                0,
+                0
+            ],
+            "frameRate": 24,
+            "prefix": "singDOWN",
+            "animType": "framelabel",
+            "flipX": false,
+            "looped": false,
+            "name": "singDOWN"
+        },
+        {
+            "flipY": false,
+            "offsets": [
+                0,
+                0
+            ],
+            "frameRate": 24,
+            "prefix": "singUP",
+            "animType": "framelabel",
+            "flipX": false,
+            "looped": false,
+            "name": "singUP"
+        },
+        {
+            "flipY": false,
+            "offsets": [
+                0,
+                0
+            ],
+            "frameRate": 24,
+            "prefix": "singRIGHT",
+            "animType": "framelabel",
+            "flipX": false,
+            "looped": false,
+            "name": "singRIGHT"
+        },
+        {
+            "flipY": false,
+            "offsets": [
+                0,
+                0
+            ],
+            "frameRate": 24,
+            "prefix": "singLEFTmiss",
+            "animType": "framelabel",
+            "flipX": false,
+            "looped": false,
+            "name": "singLEFTmiss"
+        },
+        {
+            "flipY": false,
+            "offsets": [
+                0,
+                0
+            ],
+            "frameRate": 24,
+            "prefix": "singDOWNmiss",
+            "animType": "framelabel",
+            "flipX": false,
+            "looped": false,
+            "name": "singDOWNmiss"
+        },
+        {
+            "flipY": false,
+            "offsets": [
+                0,
+                0
+            ],
+            "frameRate": 24,
+            "prefix": "singUPmiss",
+            "animType": "framelabel",
+            "flipX": false,
+            "looped": false,
+            "name": "singUPmiss"
+        },
+        {
+            "flipY": false,
+            "offsets": [
+                0,
+                0
+            ],
+            "frameRate": 24,
+            "prefix": "singRIGHTmiss",
+            "animType": "framelabel",
+            "flipX": false,
+            "looped": false,
+            "name": "singRIGHTmiss"
+        },
+        {
+            "offsets": [
+                -55,
+                10
+            ],
+            "prefix": "firstDeath",
+            "animType": "framelabel",
+            "flipX": false,
+            "looped": false,
+            "name": "firstDeath",
+            "flipY": false,
+            "assetPath": "characters/funkiBoyDeath",
+            "frameRate": 24
+        },
+        {
+            "offsets": [
+                -55,
+                10
+            ],
+            "prefix": "deathLoop",
+            "animType": "framelabel",
+            "flipX": false,
+            "name": "deathLoop",
+            "looped": true,
+            "flipY": false,
+            "assetPath": "characters/funkiBoyDeath",
+            "frameRate": 24
+        },
+        {
+            "offsets": [
+                -50,
+                10
+            ],
+            "prefix": "deathConfirm",
+            "animType": "framelabel",
+            "flipX": false,
+            "looped": false,
+            "name": "deathConfirm",
+            "flipY": false,
+            "assetPath": "characters/funkiBoyDeath",
+            "frameRate": 24
+        }
+    ]
 }
