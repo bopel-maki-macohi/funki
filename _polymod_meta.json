@@ -1,0 +1,14 @@
+{
+    "id":"maki_funki",
+
+    "title": "Funki",
+    "description": "Friday Night Funkin but remixes and new arts",
+
+    "contributors": [
+        { "name": "Maki", "role": "Art, Animation, Coding" },
+        { "name": "Requazar", "role": "AMAZING Composer" }
+    ],
+
+    "api_version": "0.8.0",
+    "mod_version": "1.0.0"
+}
